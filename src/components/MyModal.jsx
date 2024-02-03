@@ -17,7 +17,8 @@ function MyModal(props) {
                 <Button variant="primary" onClick={handleClose}>
                     Save Changes
                 </Button> */}
-                <Button variant="danger" onClick={props.onCancel}>Close</Button>
+                <Button variant="success">Save</Button>
+                <Button variant="warning" onClick={props.onCancel}>Close</Button>
             </Modal.Footer>
         </Modal>
     );
